@@ -31,7 +31,6 @@ def get_weather(city_name, api_key):
         print("Could not retrieve weather data. Please check the city name and try again.")
 
 
-# Main program
 if __name__ == "__main__":
     api_key = "434fb6d8c8ccb8ecc9879d7468d3cd50"
     city_name = input("Enter the name of the municipality: ")
